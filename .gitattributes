@@ -1,0 +1,7 @@
+# Scripts are executed inside Linux: they must keep LF line endings even when
+# checked out on Windows (CRLF breaks bash with "\r: command not found").
+* text=auto
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.env text eol=lf
+*.md text eol=lf

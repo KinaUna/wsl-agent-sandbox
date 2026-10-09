@@ -1,0 +1,7 @@
+# Local settings (copy of config.example.env)
+config.env
+
+# Never commit keys
+id_*
+*.pem
+*.key
